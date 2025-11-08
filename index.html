@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChronoPass</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="title"></section>
+    <div class="container">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+      >
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a
+            href="/"
+            class="d-inline-flex link-body-emphasis text-decoration-none"
+          >
+            <a class="navbar-brand" href="#">
+              <img
+                src="./assets/logo.svg"
+                height="100"
+                alt="box-image"
+              />ChronoPass</a
+            >
+          </a>
+        </div>
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2">Home</a></li>
+          <li><a href="#" class="nav-link px-2">Destinations</a></li>
+          <li><a href="#" class="nav-link px-2">Guides</a></li>
+          <li><a href="#" class="nav-link px-2">Packages</a></li>
+          <li><a href="#" class="nav-link px-2">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2">Contact</a></li>
+        </ul>
+        <div class="log-reg col-md-3 text-end">
+          <button type="button" class="log btn btn-outline-secondary me-2 ">
+            Login
+          </button>
+          <button type="button" class="reg btn btn-primary">Sign-up</button>
+        </div>
+      </header>
+    </div>
+
+    <section id="heroes"></section>
+    <div class="container">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./assets/characters/Tom_and_Moffat.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Tom_and_Moffat"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Travel Through Time with ChronoPass
+          </h1>
+          <p class="lead mt-5">
+            Embark on extraordinary journeys to the greatest moments in history,
+            from ancient civilizations to the distant future. Whether you dream
+            of meeting legendary figures, witnessing pivotal events, or
+            exploring worlds that shaped humanity, ChronoPass brings the past
+            and future to your fingertips. Enjoy safe, expertly guided
+            adventures and create memories across centuries — all just one
+            booking away.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              Meet the Guides
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Book Your Journey
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="characters"></section>
+    <hr class="container mt-5">
+    <h4 class="design mt-5">Meet Your Time Travel Guides</h4>
+    <div class="">
+      <div class="container mt-5">
+        <div class="card gradient-background" style="width: 20rem">
+          <img
+            src="./assets/characters/Tom.png"
+            class="card-img-top"
+            alt="Tom"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Meet Tom</h5>
+            <p class="card-text">
+              Your fearless guide to every adventure across time, always ready
+              with his trusty chronometer.
+            </p>
+          </div>
+        </div>
+        <div class="card gradient-background" style="width: 20rem">
+          <img
+            src="./assets/characters/Moffat.png"
+            class="card-img-top"
+            alt="Tom"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Meet Professor Moffat</h5>
+            <p class="card-text">
+              The wise master of time theory, inspiring journeys with his
+              knowledge and wit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="features"></section>
+    <hr class="container mt-5">
+    <h4 class="design mt-5">Memories from Our Customers</h4>
+    <div class="container mt-5">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/examples/2100.png"
+              class="d-block w-100"
+              alt="2100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/examples/dinosaur.png"
+              class="d-block w-100"
+              alt="dinosaur"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/examples/Pyramids.png"
+              class="d-block w-100"
+              alt="Pyramids"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+     <section id="comments">
+      <hr class="container mt-5">
+    <h4 class="design mt-5">Meet Your Time Travel Guides</h4>
+    <div class="reviews d-flex flex-column flex-md-row  p-4 gap-4 py-md-5 align-items-center justify-content-center"> <div class="list-group"> <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true"> <img src="./assets/characters/Sarah.png" alt="" width="50" height="50" class="rounded-circle flex-shrink-0"> <div class="d-flex gap-2 w-100 justify-content-between"> <div> <h6 class="mb-0">Sarah | Ancient Egypt | ⭐⭐⭐⭐⭐</h6> <p class="mb-0 opacity-75">Tom made the pyramids tour unforgettable! Felt like a real explorer.</p> </div> <small class="opacity-50 text-nowrap">now</small> </div> </a> <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true"> <img src="./assets/characters/Mike.png" alt="" width="50" height="50" class="rounded-circle flex-shrink-0"> <div class="d-flex gap-2 w-100 justify-content-between"> <div> <h6 class="mb-0">Mike | Dinosaur Age | ⭐⭐⭐⭐</h6> <p class="mb-0 opacity-75">Seeing the T-Rex up close was wild, ChronoPass is awesome.</p> </div> <small class="opacity-50 text-nowrap">3d</small> </div> </a> <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true"> <img src="./assets/characters/Lucy.png" alt="" width="50" height="50" class="rounded-circle flex-shrink-0"> <div class="d-flex gap-2 w-100 justify-content-between"> <div> <h6 class="mb-0">Lucy | Future 2100 | ⭐⭐⭐⭐⭐</h6> <p class="mb-0 opacity-75">The city of tomorrow was breathtaking. Professor Moffat answered all our questions.</p> </div> <small class="opacity-50 text-nowrap">1w</small> </div> </a> </div> </div>
+
+      
+    </section>
+
+    <section id="pricing"></section>
+    <hr class="container mt-5">
+    <h4 class="design mt-5">Pricing</h4>
+    <div class="container mt-5 btn btn-lg">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Explorer Pass</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $0<small class="text-body-secondary fw-bold">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>2 historical eras included</li>
+                <li>Group journeys with Tom</li>
+                <li>Digital travel journal</li>
+                <li>Basic time-travel support</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-dark btn-primary">
+                Begin Your First Time Journey
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Adventurer Pass</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $15<small class="text-body-secondary fw-bold">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10+ eras unlocked</li>
+                <li>Customize your path</li>
+                <li>Hologram photos & souvenirs</li>
+                <li>Priority traveler support</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-dark btn-primary">
+                Start Your Adventure
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Legendary Pass</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $29<small class="text-body-secondary fw-bold">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>All eras + exclusive events</li>
+                <li>Private guide</li>
+                <li>Real-time translation</li>
+                <li>24/7 VIP support</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-dark btn-primary">
+                Contact a Temporal Consultant
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+    <section id="Payment"></section>
+    
+    <div class="container mt-5">
+      <div class="col-md-7 col-lg-8">
+        <hr>
+        <h4 class="mb-5">Billing address</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">First name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                placeholder=""
+                value=""
+                required=""
+              />
+              <div class="invalid-feedback">Valid first name is required.</div>
+            </div>
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                placeholder=""
+                value=""
+                required=""
+              />
+              <div class="invalid-feedback">Valid last name is required.</div>
+            </div>
+            <div class="col-12">
+              <label for="username" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="Username"
+                  required=""
+                />
+                <div class="invalid-feedback">Your username is required.</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="email" class="form-label"
+                >Email
+                <span class="text-body-secondary">(Optional)</span></label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="you@example.com"
+              />
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="address" class="form-label">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="1234 Main St"
+                required=""
+              />
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="address2" class="form-label"
+                >Address 2
+                <span class="text-body-secondary">(Optional)</span></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="address2"
+                placeholder="Apartment or suite"
+              />
+            </div>
+            <div class="col-md-5">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select" id="country" required="">
+                <option value="">Choose...</option>
+                <option>United States</option>
+                <option>Austria</option>
+                <option>Italy</option>
+              </select>
+              <div class="invalid-feedback">Please select a valid country.</div>
+            </div>
+            <div class="col-md-4">
+              <label for="state" class="form-label">State</label>
+              <select class="form-select" id="state" required="">
+                <option value="">Choose...</option>
+                <option>California</option>
+                <option>Venice</option>
+                <option>Vienna</option>
+              </select>
+              <div class="invalid-feedback">Please provide a valid state.</div>
+            </div>
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Zip</label>
+              <input
+                type="text"
+                class="form-control"
+                id="zip"
+                placeholder=""
+                required=""
+              />
+              <div class="invalid-feedback">Zip code required.</div>
+            </div>
+          </div>
+          <hr class="my-4" />
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address" />
+            <label class="form-check-label" for="same-address"
+              >Shipping address is the same as my billing address</label
+            >
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info" />
+            <label class="form-check-label" for="save-info"
+              >Save this information for next time</label
+            >
+          </div>
+          <hr class="my-4" />
+          <h4 class="mb-3">Payment</h4>
+          <div class="my-3">
+            <div class="form-check">
+              <input
+                id="credit"
+                name="paymentMethod"
+                type="radio"
+                class="form-check-input"
+                checked=""
+                required=""
+              />
+              <label class="form-check-label" for="credit">Credit card</label>
+            </div>
+            <div class="form-check">
+              <input
+                id="debit"
+                name="paymentMethod"
+                type="radio"
+                class="form-check-input"
+                required=""
+              />
+              <label class="form-check-label" for="debit">Debit card</label>
+            </div>
+            <div class="form-check">
+              <input
+                id="paypal"
+                name="paymentMethod"
+                type="radio"
+                class="form-check-input"
+                required=""
+              />
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Name on card</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cc-name"
+                placeholder=""
+                required=""
+              />
+              <small class="text-body-secondary"
+                >Full name as displayed on card</small
+              >
+              <div class="invalid-feedback">Name on card is required</div>
+            </div>
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label"
+                >Credit card number</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="cc-number"
+                placeholder=""
+                required=""
+              />
+              <div class="invalid-feedback">Credit card number is required</div>
+            </div>
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Expiration</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cc-expiration"
+                placeholder=""
+                required=""
+              />
+              <div class="invalid-feedback">Expiration date required</div>
+            </div>
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cc-cvv"
+                placeholder=""
+                required=""
+              />
+              <div class="invalid-feedback">Security code required</div>
+            </div>
+          </div>
+          <hr class="my-4" />
+          <button class="w-100 btn btn-primary btn-lg" type="submit">
+            Continue to checkout
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <section id="Footer">
+      
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            aria-label="Bootstrap"
+          >
+            <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-body-secondary pt-5 text-center">
+            <a class="navbar-brand" href="#">
+              <img
+                src="./assets/logo.svg"
+                height="80"
+                alt="box-image"
+              />ChronoPass</a
+          </p>
+        </div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+          <h5>Quick Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Contact Info</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <p class="nav-link p-0 text-body-secondary">furkanemreyilmaz531@gmail.com </p>
+            </li>
+            <li class="nav-item mb-2">
+              <p class="nav-link p-0 text-body-secondary">+90 123 456 78 90</p>
+            </li>
+            <h5>Social Media</h5>
+            <li class="nav-item mb-2">
+              <a href="https://www.linkedin.com/in/furkan-emre-y%C4%B1lmaz-449ba8339/" class="nav-link p-0 text-body-secondary">Linkedin</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="https://www.instagram.com/__furkan__emre__/" class="nav-link p-0 text-body-secondary">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

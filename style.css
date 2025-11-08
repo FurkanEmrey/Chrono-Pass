@@ -1,0 +1,59 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 2s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+#characters > img {
+  max-height: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: none;
+}
+
+.reviews > img {
+  width: 64;
+  height: 64;
+}
+
+div h4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.design {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.log-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
