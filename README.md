@@ -1,7 +1,6 @@
 # ⏳ ChronoPass - Time Travel Booking Agency
 <img width="1920" height="1000" alt="Gemini_Generated_Image_u390hqu390hqu390 (1)" src="https://github.com/user-attachments/assets/fd9ebee3-2bdb-43af-ae56-91e8e9472a61" />
 
-[ChronoPass Main Image - Character taking a selfie in a futuristic Neon City]
 This project is a fictional time travel booking agency website developed as a **Capstone Project** for a Web Development Bootcamp (The Complete Web Development Bootcamp by Angela Yu). It was created to demonstrate proficiency in modern, responsive design principles and advanced CSS techniques.
 
 ## ✨ Features
