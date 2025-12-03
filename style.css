@@ -18,42 +18,50 @@
 
 .navbar-brand {
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
+
 #characters > img {
   max-height: 30px;
 }
 
-.container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
 .card {
   border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 20rem;
 }
 
-.reviews > img {
-  width: 64;
-  height: 64;
+.reviews img {
+  object-fit: cover;
 }
 
-div h4 {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.design {
-  display: flex;
+div h4, .design {
   text-align: center;
   justify-content: center;
 }
 
 .log-reg {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  width: 100%;
-  margin: 0 auto;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .log-reg {
+    justify-content: center;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .log-reg .btn {
+    flex: 1;
+  }
+
+  .navbar-brand img {
+    height: 60px;
+    width: auto;
+  }
 }
